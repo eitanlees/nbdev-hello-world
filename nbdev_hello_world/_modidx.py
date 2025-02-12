@@ -5,4 +5,5 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://eitanlees.github.io',
                 'git_url': 'https://github.com/eitanlees/nbdev-hello-world',
                 'lib_path': 'nbdev_hello_world'},
-  'syms': {'nbdev_hello_world.core': {'nbdev_hello_world.core.foo': ('core.html#foo', 'nbdev_hello_world/core.py')}}}
+  'syms': { 'nbdev_hello_world.mymod': { 'nbdev_hello_world.mymod.foo': ('mymod.html#foo', 'nbdev_hello_world/mymod.py'),
+                                         'nbdev_hello_world.mymod.say_hello': ('mymod.html#say_hello', 'nbdev_hello_world/mymod.py')}}}
